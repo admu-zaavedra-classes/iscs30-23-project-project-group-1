@@ -1,8 +1,8 @@
 # Group 1-contain
 
-Before starting the deployment process, first prepare the image and a DockerHub account.
+Before starting the deployment process, prepare an image and a DockerHub account.
 
-Since the image folder is named dabble-web, I will then cd dabble-web to start build.
+Since the image folder is named dabble-web, cd dabble-web to start build.
 ## Make sure you have a Dockerfile setup. 
 
 ```
