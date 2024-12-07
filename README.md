@@ -3,7 +3,7 @@
 Before starting the deployment process, first prepare the image and a DockerHub account.
 
 Since the image folder is named dabble-web, I will then cd dabble-web to start build.
-Make sure you have a Dockerfile setup. 
+## Make sure you have a Dockerfile setup. 
 
 
 FROM node:18-alpine
@@ -19,14 +19,14 @@ EXPOSE 3000
 CMD ["npm", "start"]
 
 
-Start your build.
+## Start your build.
 docker build -t dabble-web .
 
-Then, pull the image.
+## Then, pull the image.
 
 docker pull dabble-web:latest
 
-Now you have the image locally.
+## Now you have the image locally.
 
 
 REPOSITORY               TAG       IMAGE ID       CREATED        SIZE
