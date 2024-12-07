@@ -33,4 +33,8 @@ docker pull dabble-web:latest
 REPOSITORY               TAG       IMAGE ID       CREATED        SIZE
 dabble-web               latest    52ee8fc286d7   26 hours ago   219MB
 ```
+## Below is the deployed Kubernetes link: 
 
+```
+http://34.54.9.27/path
+```
