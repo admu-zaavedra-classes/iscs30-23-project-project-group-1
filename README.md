@@ -17,7 +17,7 @@ EXPOSE 3000
 
 CMD ["npm", "start"]
 
-#Start your build.
+Start your build.
 docker build -t dabble-web .
 
 Then, pull the image.
